@@ -24,5 +24,5 @@ def index():
 @app.route("/about")
 def ab():
     return render_template("i.html")
-
-app.run(host="0.0.0.0",port="80",debug=1)
+if __name__ == "__main__":
+    app.run(host="0.0.0.0",port="80",debug=1)
