@@ -20,19 +20,7 @@ def index():
         
     except:
         return render_template("index.html",y=[],ty=0)
-# @app.route("/img/2.ico")
 
-# def icon():
-#     return pathlib.Path("2.ico").read_bytes()
-# @app.route("/img/header-background.jpg")
-# def bg():
-#     return pathlib.Path("header-background.jpg").read_bytes()
-# @app.route("/particles.js")
-# def particles():
-#     return render_template("particles.js")
-# @app.route("/app.js")
-# def app_js():
-#     return render_template("app.js")
 @app.route("/about")
 def ab():
     return render_template("i.html")
